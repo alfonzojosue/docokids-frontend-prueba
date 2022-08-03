@@ -31,11 +31,13 @@ Docokids en su equipo de médicos pediatras, debe estar disponibles para el clie
 
 - Cree una vista donde podamos visualizar todos los blogs.
 	Nota: Aplicar paginación.
+- Cree una vista donde podamos visualizar el detalle del blog.
+	Nota: Aplicar paginación.
 
 ### Recursos
 
 - Diseño de blogs [https://docokids-test.herokuapp.com/blog/](https://docokids-test.herokuapp.com/blog/ "https://docokids-test.herokuapp.com/blog/")
-- Url de Endpoint donde podra obtener la información de los blogs en formato json [https://apidocokids.herokuapp.com/v1/home/blogs/](https://apidocokids.herokuapp.com/v1/home/blogs/ "https://apidocokids.herokuapp.com/v1/home/blogs/").
+- Url de Endpoint donde podra obtener la información de los blogs en formato json [https://apidocokids.herokuapp.com/v1/home/blogs/](https://apidocokids.herokuapp.com/v1/home/blogs/ "https://apidocokids.herokuapp.com/v1/home/blogs/"). Nota: para buscar el blog seleccionado utilizar "/home/blogs/?id=2"
 
 ### BONO
 
