@@ -1,0 +1,59 @@
+.NavBar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    
+}
+.Logo-Nav {
+    width: 11rem;
+    height: 3.5rem;
+    padding-left: 20px;
+}
+
+.NavBar ul {
+display: flex;
+
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.NavBar ul li a{
+    text-decoration: none;
+    color: #919294;
+    margin-right: 1rem;
+}
+.NavBar a{
+ color: #919294;
+ text-decoration: none;
+}
+.Icon-Menu{
+    width: 35px;
+    height: 35px;
+}
+.NavBar span {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 700px) {
+    nav a {
+      display: none;
+    }
+  
+  }
+  @media (min-width: 700px) {
+    nav .Icon-Menu {
+      display: none;
+    }
+    
+  }

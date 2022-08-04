@@ -1,0 +1,38 @@
+.Container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+   color: aliceblue;
+    background-color: #18b4b0;
+}
+.section-Footer{
+    width: 350px;
+    margin-bottom: 50px;
+}
+.input-checkbox{
+    display: flex;
+    align-items: center;
+}
+.section-Footer a {
+    color: aliceblue;
+}
+
+.container-email {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    display: flex;
+}
+.input-email{
+    width: 250px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    border: none;
+    padding-left: 20px;
+}
+
+.input-email:focus{
+    outline:none;
+}
